@@ -1,0 +1,990 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maram Kassem — Luxury Editorial AI Portfolio</title>
+    <meta
+      name="description"
+      content="Personal portfolio of Maram Kassem, fourth-year Artificial Intelligence student at EPI Sousse. Editorial showcases of AI, machine learning, and web development projects."
+    />
+    <meta property="og:title" content="Maram Kassem — Luxury Editorial AI Portfolio" />
+    <meta
+      property="og:description"
+      content="Personal portfolio of Maram Kassem, fourth-year Artificial Intelligence student at EPI Sousse. Editorial showcases of AI, machine learning, and web development projects."
+    />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  </head>
+  <body>
+    <!-- Top Navigation Bar (3-Zone Top Bar Contract) -->
+    <header class="site-header" role="banner">
+      <div class="container">
+        <div class="nav-inner">
+          <!-- Zone 1: Brand Monogram -->
+          <a href="#hero" class="brand-monogram" aria-label="Maram Kassem Home">
+            <span class="brand-monogram-circle">MK</span>
+            <span>MARAM KASSEM</span>
+          </a>
+
+          <!-- Zone 2: Navigation Links -->
+          <nav aria-label="Main Navigation">
+            <ul class="nav-links">
+              <li><a href="#hero" class="nav-link active">Home</a></li>
+              <li><a href="#about" class="nav-link">About</a></li>
+              <li><a href="#projects" class="nav-link">Projects</a></li>
+              <li><a href="#skills" class="nav-link">Skills</a></li>
+              <li><a href="#certifications" class="nav-link">Certifications</a></li>
+              <li><a href="#education" class="nav-link">Education</a></li>
+              <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+          </nav>
+
+          <!-- Zone 3: Academic Status -->
+          <div class="nav-status">
+            <span>AI STUDENT</span>
+            <span class="hero-dot-separator">·</span>
+            <span>EPI SOUSSE</span>
+          </div>
+
+          <!-- Mobile Menu Trigger -->
+          <button
+            id="mobile-menu-toggle"
+            class="mobile-menu-btn"
+            aria-label="Toggle navigation menu"
+            aria-expanded="false"
+          >
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="4" y1="7" x2="20" y2="7"></line>
+              <line x1="4" y1="12" x2="20" y2="12"></line>
+              <line x1="4" y1="17" x2="20" y2="17"></line>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Mobile Drawer Menu -->
+    <nav id="mobile-drawer" class="mobile-drawer" aria-label="Mobile Navigation">
+      <ul class="mobile-drawer-links">
+        <li><a href="#hero" class="mobile-drawer-link">01. Home</a></li>
+        <li><a href="#about" class="mobile-drawer-link">02. About</a></li>
+        <li><a href="#projects" class="mobile-drawer-link">03. Projects</a></li>
+        <li><a href="#skills" class="mobile-drawer-link">04. Skills</a></li>
+        <li><a href="#certifications" class="mobile-drawer-link">05. Certifications</a></li>
+        <li><a href="#education" class="mobile-drawer-link">06. Education</a></li>
+        <li><a href="#contact" class="mobile-drawer-link">07. Contact</a></li>
+      </ul>
+      <div class="mobile-drawer-status">
+        Fourth-Year AI Student · EPI Sousse, Tunisia
+      </div>
+    </nav>
+
+    <main id="main-content">
+      <!-- ====================================================================
+           Hero Section (Visual Centerpiece)
+           ==================================================================== -->
+      <section id="hero" class="hero-section" aria-label="Introduction and Overview">
+        <div class="container">
+          <!-- Oversized Editorial Headline across page width -->
+          <div class="hero-headline-wrap">
+            <h1 class="hero-headline">
+              <span class="hero-headline-line1">ARTIFICIAL</span>
+              <span class="hero-headline-line2">INTELLIGENCE</span>
+            </h1>
+          </div>
+
+          <!-- Hero Stage: Left Intro, Center Portrait (Overlapping), Right Editorial Statement -->
+          <div class="hero-stage">
+            <!-- Left-side introduction -->
+            <div class="hero-intro-left">
+              <span class="editorial-kicker">AI & DATA SCIENCE STUDENT</span>
+              <h2 class="hero-heading">Hello, I'm Maram Kassem.</h2>
+              <p class="hero-desc">
+                I explore artificial intelligence, machine learning, and software development to build useful and meaningful digital solutions.
+              </p>
+              <div>
+                <a href="#projects" class="btn-editorial-primary">
+                  <span>EXPLORE MY PROJECTS</span>
+                  <span aria-hidden="true">↗</span>
+                </a>
+              </div>
+              <div class="hero-rule"></div>
+              <div class="hero-meta-strip">
+                <span>EPI SOUSSE · 4TH YEAR</span>
+              </div>
+            </div>
+
+            <!-- Central uploaded portrait of Maram Kassem -->
+            <div class="hero-portrait-center">
+              <div class="hero-portrait-frame">
+                <!-- Corner accents -->
+                <div class="hero-portrait-corner corner-tl"></div>
+                <div class="hero-portrait-corner corner-tr"></div>
+                <div class="hero-portrait-corner corner-bl"></div>
+                <div class="hero-portrait-corner corner-br"></div>
+
+                <img
+                  src="/assets/aistudio/port_e70c6bb1.png"
+                  alt="Editorial portrait photograph of Maram Kassem, fourth-year artificial intelligence student"
+                  class="hero-portrait-img"
+                  loading="eager"
+                  referrerpolicy="no-referrer"
+                />
+              </div>
+            </div>
+
+            <!-- Right-side editorial statement -->
+            <div class="hero-statement-right">
+              <span class="hero-handwritten">Turning ideas into intelligent solutions.</span>
+              <p class="hero-desc">
+                Passionate about technology, problem-solving, and creating solutions that connect data, intelligence, and real-world needs.
+              </p>
+              <div>
+                <a href="#contact" class="btn-editorial-secondary">
+                  <span>GET IN TOUCH</span>
+                  <span aria-hidden="true">↗</span>
+                </a>
+              </div>
+              <div class="hero-rule right"></div>
+              <div class="hero-meta-strip">
+                <span>35.8256° N, 10.6369° E · SOUSSE</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Bottom hero strip -->
+          <div class="hero-footer-bar">
+            <span>FOCUS · COMPUTER VISION & APPLIED ML</span>
+            <span class="hero-dot-separator">·</span>
+            <span>CURRENTLY SEEKING INTERNSHIP OPPORTUNITIES</span>
+            <span class="hero-dot-separator">·</span>
+            <span>BASED IN SOUSSE, TUNISIA</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Editorial Marquee Ribbon -->
+      <aside class="editorial-ribbon" aria-hidden="true">
+        <div class="ribbon-track">
+          <div class="ribbon-item">
+            <span>ARTIFICIAL INTELLIGENCE</span>
+            <span class="star">✦</span>
+            <span>COMPUTER VISION</span>
+            <span class="star">✦</span>
+            <span>MACHINE LEARNING</span>
+            <span class="star">✦</span>
+            <span>DATA ANALYSIS</span>
+            <span class="star">✦</span>
+            <span>WEB DEVELOPMENT</span>
+            <span class="star">✦</span>
+            <span>EPI SOUSSE</span>
+            <span class="star">✦</span>
+            <span>ALGORITHMS</span>
+            <span class="star">✦</span>
+            <span>PROBLEM SOLVING</span>
+            <span class="star">✦</span>
+          </div>
+          <div class="ribbon-item">
+            <span>ARTIFICIAL INTELLIGENCE</span>
+            <span class="star">✦</span>
+            <span>COMPUTER VISION</span>
+            <span class="star">✦</span>
+            <span>MACHINE LEARNING</span>
+            <span class="star">✦</span>
+            <span>DATA ANALYSIS</span>
+            <span class="star">✦</span>
+            <span>WEB DEVELOPMENT</span>
+            <span class="star">✦</span>
+            <span>EPI SOUSSE</span>
+            <span class="star">✦</span>
+            <span>ALGORITHMS</span>
+            <span class="star">✦</span>
+            <span>PROBLEM SOLVING</span>
+            <span class="star">✦</span>
+          </div>
+        </div>
+      </aside>
+
+      <!-- ====================================================================
+           About Section
+           ==================================================================== -->
+      <section id="about" class="about-section" aria-labelledby="about-title">
+        <div class="container">
+          <div class="about-grid">
+            <!-- Left Column: Quote box & metadata -->
+            <div class="about-quote-box">
+              <span class="editorial-kicker">EDITORIAL NOTE</span>
+              <p class="about-quote-phrase">"Always learning. Always building."</p>
+              <p class="editorial-lead" style="font-size: 0.95rem;">
+                Bridging theory and application through curious exploration and disciplined engineering.
+              </p>
+
+              <ul class="about-meta-list">
+                <li class="about-meta-row">
+                  <span class="about-meta-label">Discipline</span>
+                  <span class="about-meta-value">Artificial Intelligence</span>
+                </li>
+                <li class="about-meta-row">
+                  <span class="about-meta-label">Academic Year</span>
+                  <span class="about-meta-value">4th Year (Engineering)</span>
+                </li>
+                <li class="about-meta-row">
+                  <span class="about-meta-label">Institution</span>
+                  <span class="about-meta-value">EPI Sousse, Tunisia</span>
+                </li>
+                <li class="about-meta-row">
+                  <span class="about-meta-label">Availability</span>
+                  <span class="about-meta-value" style="color: var(--accent-dusty);">Internships & Collaborations</span>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Right Column: Biography & Interest Pillars -->
+            <div class="about-content-col">
+              <span class="editorial-kicker">A LITTLE ABOUT ME</span>
+              <h2 id="about-title" class="editorial-h2">Curious by nature. Driven by technology.</h2>
+              <p class="editorial-lead">
+                I'm Maram Kassem, a fourth-year Artificial Intelligence student at EPI Sousse. I'm interested in machine learning, data analysis, computer vision, and software development. Through academic projects, I enjoy exploring technical concepts and turning ideas into practical solutions.
+              </p>
+              <p class="editorial-lead" style="margin-top: -0.5rem;">
+                My coursework and projects combine foundational mathematical concepts with hands-on coding, emphasizing clean architecture, reproducible experiments, and intuitive digital interfaces.
+              </p>
+
+              <!-- Three Interest Pillars -->
+              <div class="about-pillars">
+                <div class="about-pillar-card">
+                  <div class="about-pillar-number">01</div>
+                  <h3 class="about-pillar-title">Machine Learning</h3>
+                  <p class="about-pillar-desc">
+                    Statistical modeling, feature engineering, and predictive algorithms trained on diverse real-world datasets.
+                  </p>
+                </div>
+                <div class="about-pillar-card">
+                  <div class="about-pillar-number">02</div>
+                  <h3 class="about-pillar-title">Computer Vision</h3>
+                  <p class="about-pillar-desc">
+                    Object recognition, detection frameworks, and visual feature extraction applied to practical sustainability problems.
+                  </p>
+                </div>
+                <div class="about-pillar-card">
+                  <div class="about-pillar-number">03</div>
+                  <h3 class="about-pillar-title">Web Development</h3>
+                  <p class="about-pillar-desc">
+                    Modern responsive interfaces and interactive systems structured with clean, accessible code.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ====================================================================
+           Featured Projects Section
+           ==================================================================== -->
+      <section id="projects" class="projects-section" aria-labelledby="projects-title">
+        <div class="container">
+          <div class="section-header-wrap">
+            <span class="editorial-kicker">FEATURED WORK</span>
+            <h2 id="projects-title" class="editorial-h2">Academic & Applied Projects</h2>
+            <p class="editorial-lead">
+              A curated selection of technical explorations spanning computer vision, machine learning workflows, and responsive web applications.
+            </p>
+          </div>
+
+          <!-- Three-column Project Gallery -->
+          <div class="projects-grid">
+            <!-- Project 01 — EcoBuild AI -->
+            <article class="project-card" data-project="ecobuild" tabindex="0" role="button" aria-label="View EcoBuild AI project details">
+              <div class="project-image-box">
+                <span class="project-badge-number">PROJECT 01</span>
+                <img
+                  src="/src/assets/images/project_ecobuild_ai_1793297889218.jpg"
+                  alt="Construction site materials and sorted aggregate on modern development site"
+                  class="project-img"
+                  loading="lazy"
+                  referrerpolicy="no-referrer"
+                />
+                <div class="project-image-overlay"></div>
+              </div>
+              <div class="project-card-body">
+                <span class="project-card-kicker">COMPUTER VISION & RECYCLING</span>
+                <h3 class="project-card-title">EcoBuild AI</h3>
+                <p class="project-card-desc">
+                  An AI-assisted construction-waste valorization project using computer vision to identify construction materials and support reuse and recycling decisions.
+                </p>
+                <ul class="project-tech-list" aria-label="Technologies used">
+                  <li class="project-tech-item">Python</li>
+                  <li class="project-tech-item">Computer Vision</li>
+                  <li class="project-tech-item">YOLO</li>
+                  <li class="project-tech-item">Data Analysis</li>
+                </ul>
+                <div class="project-card-action">
+                  <span>Explore Case Details</span>
+                  <span aria-hidden="true">↗</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- Project 02 — Machine Learning & Data Analysis -->
+            <article class="project-card" data-project="ml" tabindex="0" role="button" aria-label="View Machine Learning & Data Analysis project details">
+              <div class="project-image-box">
+                <span class="project-badge-number">PROJECT 02</span>
+                <img
+                  src="/src/assets/images/project_ml_analytics_1793297890040.jpg"
+                  alt="Machine learning data visualization showing neural network pathways and feature analysis"
+                  class="project-img"
+                  loading="lazy"
+                  referrerpolicy="no-referrer"
+                />
+                <div class="project-image-overlay"></div>
+              </div>
+              <div class="project-card-body">
+                <span class="project-card-kicker">MODEL TRAINING & PIPELINES</span>
+                <h3 class="project-card-title">Machine Learning & Data Analysis</h3>
+                <p class="project-card-desc">
+                  An academic machine learning workflow involving data exploration, preprocessing, model training, and evaluation.
+                </p>
+                <ul class="project-tech-list" aria-label="Technologies used">
+                  <li class="project-tech-item">Python</li>
+                  <li class="project-tech-item">Pandas</li>
+                  <li class="project-tech-item">NumPy</li>
+                  <li class="project-tech-item">scikit-learn</li>
+                </ul>
+                <div class="project-card-action">
+                  <span>Explore Case Details</span>
+                  <span aria-hidden="true">↗</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- Project 03 — Web Development -->
+            <article class="project-card" data-project="web" tabindex="0" role="button" aria-label="View Web Development project details">
+              <div class="project-image-box">
+                <span class="project-badge-number">PROJECT 03</span>
+                <img
+                  src="/src/assets/images/project_web_dev_1793297889936.jpg"
+                  alt="Modern web development interface and design wireframes on studio monitor"
+                  class="project-img"
+                  loading="lazy"
+                  referrerpolicy="no-referrer"
+                />
+                <div class="project-image-overlay"></div>
+              </div>
+              <div class="project-card-body">
+                <span class="project-card-kicker">INTERACTIVE APPLICATIONS</span>
+                <h3 class="project-card-title">Web Development</h3>
+                <p class="project-card-desc">
+                  Web development projects focused on building responsive interfaces and practical digital applications.
+                </p>
+                <ul class="project-tech-list" aria-label="Technologies used">
+                  <li class="project-tech-item">HTML</li>
+                  <li class="project-tech-item">CSS</li>
+                  <li class="project-tech-item">JavaScript</li>
+                  <li class="project-tech-item">TypeScript</li>
+                  <li class="project-tech-item">Angular</li>
+                </ul>
+                <div class="project-card-action">
+                  <span>Explore Case Details</span>
+                  <span aria-hidden="true">↗</span>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ====================================================================
+           Technical Skills Section
+           ==================================================================== -->
+      <section id="skills" class="skills-section" aria-labelledby="skills-title">
+        <div class="container">
+          <div class="section-header-wrap">
+            <span class="editorial-kicker">TECHNICAL PROFILE</span>
+            <h2 id="skills-title" class="editorial-h2">Skills & Areas of Study</h2>
+            <p class="editorial-lead">
+              Structured areas of technical focus and active exploration across software engineering, machine learning pipelines, and web systems.
+            </p>
+          </div>
+
+          <!-- 4 Category Cards with clean typography -->
+          <div class="skills-grid">
+            <!-- 1. Programming Languages -->
+            <div class="skill-category-card">
+              <div class="skill-category-header">
+                <div class="skill-cat-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="16 18 22 12 16 6"></polyline>
+                    <polyline points="8 6 2 12 8 18"></polyline>
+                  </svg>
+                </div>
+                <h3 class="skill-cat-title">Programming Languages</h3>
+              </div>
+              <ul class="skill-pill-list">
+                <li class="skill-item">
+                  <span>Python</span>
+                  <span class="skill-item-bullet">✦</span>
+                </li>
+                <li class="skill-item">
+                  <span>JavaScript</span>
+                  <span class="skill-item-bullet">✦</span>
+                </li>
+                <li class="skill-item">
+                  <span>TypeScript</span>
+                  <span class="skill-item-bullet">✦</span>
+                </li>
+                <li class="skill-item">
+                  <span>C</span>
+                  <span class="skill-item-bullet">✦</span>
+                </li>
+                <li class="skill-item">
+                  <span>PHP</span>
+                  <span class="skill-item-bullet">✦</span>
+                </li>
+                <li class="skill-item">
+                  <span>Dart</span>
+                  <span class="skill-item-bullet">✦</span>
+                </li>
+              </ul>
+            </div>
+
+            <!-- 2. AI & Machine Learning -->
+            <div class="skill-category-card">
+              <div class="skill-category-header">
+                <div class="skill-cat-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="3"></circle>
+                    <path d="M12 2v3m0 14v3M2 12h3m14 0h3"></path>
+                    <circle cx="12" cy="12" r="8"></circle>
+                  </svg>
+                </div>
+                <h3 class="skill-cat-title">AI & Machine Learning</h3>
+              </div>
+              <ul class="skill-pill-list">
+                <li class="skill-item">
+                  <span>Machine Learning</span>
+                  <span class="skill-item-bullet">✦</span>
+                </li>
+                <li class="skill-item">
+                  <span>Data Analysis</span>
+                  <span class="skill-item-bullet">✦</span>
+                </li>
+                <li class="skill-item">
+                  <span>Computer Vision</span>
+                  <span class="skill-item-bullet">✦</span>
+                </li>
+                <li class="skill-item">
+                  <span>Pandas</span>
+                  <span class="skill-item-bullet">✦</span>
+                </li>
+                <li class="skill-item">
+                  <span>NumPy</span>
+                  <span class="skill-item-bullet">✦</span>
+                </li>
+                <li class="skill-item">
+                  <span>scikit-learn</span>
+                  <span class="skill-item-bullet">✦</span>
+                </li>
+              </ul>
+            </div>
+
+            <!-- 3. Web Development -->
+            <div class="skill-category-card">
+              <div class="skill-category-header">
+                <div class="skill-cat-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                    <line x1="8" y1="21" x2="16" y2="21"></line>
+                    <line x1="12" y1="17" x2="12" y2="21"></line>
+                  </svg>
+                </div>
+                <h3 class="skill-cat-title">Web Development</h3>
+              </div>
+              <ul class="skill-pill-list">
+                <li class="skill-item">
+                  <span>HTML</span>
+                  <span class="skill-item-bullet">✦</span>
+                </li>
+                <li class="skill-item">
+                  <span>CSS</span>
+                  <span class="skill-item-bullet">✦</span>
+                </li>
+                <li class="skill-item">
+                  <span>JavaScript</span>
+                  <span class="skill-item-bullet">✦</span>
+                </li>
+                <li class="skill-item">
+                  <span>TypeScript</span>
+                  <span class="skill-item-bullet">✦</span>
+                </li>
+                <li class="skill-item">
+                  <span>Angular</span>
+                  <span class="skill-item-bullet">✦</span>
+                </li>
+                <li class="skill-item">
+                  <span>Symfony</span>
+                  <span class="skill-item-bullet">✦</span>
+                </li>
+              </ul>
+            </div>
+
+            <!-- 4. Tools & Platforms -->
+            <div class="skill-category-card">
+              <div class="skill-category-header">
+                <div class="skill-cat-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path>
+                  </svg>
+                </div>
+                <h3 class="skill-cat-title">Tools & Platforms</h3>
+              </div>
+              <ul class="skill-pill-list">
+                <li class="skill-item">
+                  <span>Git</span>
+                  <span class="skill-item-bullet">✦</span>
+                </li>
+                <li class="skill-item">
+                  <span>GitHub</span>
+                  <span class="skill-item-bullet">✦</span>
+                </li>
+                <li class="skill-item">
+                  <span>Docker</span>
+                  <span class="skill-item-bullet">✦</span>
+                </li>
+                <li class="skill-item">
+                  <span>Jupyter Notebook</span>
+                  <span class="skill-item-bullet">✦</span>
+                </li>
+                <li class="skill-item">
+                  <span>VS Code</span>
+                  <span class="skill-item-bullet">✦</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ====================================================================
+           Certifications Section
+           ==================================================================== -->
+      <section id="certifications" class="certifications-section" aria-labelledby="certifications-title">
+        <div class="container">
+          <div class="section-header-wrap">
+            <span class="editorial-kicker">ACADEMIC & PROFESSIONAL ACCREDITATIONS</span>
+            <h2 id="certifications-title" class="editorial-h2">Certifications & Badges</h2>
+            <p class="editorial-lead">
+              Verified accreditations across computer networking, infrastructure security, switching and routing essentials, and cloud computing principles.
+            </p>
+          </div>
+
+          <div class="cert-grid">
+            <!-- Certification 01: CCNA 1 -->
+            <article class="cert-card">
+              <div class="cert-card-top">
+                <div class="cert-card-header">
+                  <span class="cert-code">01 · NETWORKS</span>
+                  <div class="cert-badge-icon" aria-hidden="true">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+                      <rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect>
+                      <rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect>
+                      <line x1="6" y1="6" x2="6.01" y2="6"></line>
+                      <line x1="6" y1="18" x2="6.01" y2="18"></line>
+                    </svg>
+                  </div>
+                </div>
+                <span class="cert-issuer">Cisco Networking Academy</span>
+                <h3 class="cert-title">CCNA 1: Introduction to Networks</h3>
+                <p class="cert-desc">
+                  Architecture, models, protocols, and networking elements connecting users, devices, applications, and data across modern networks.
+                </p>
+              </div>
+
+              <div class="cert-card-bottom">
+                <div class="cert-topics-title">Key Domains</div>
+                <ul class="cert-topics-list">
+                  <li class="cert-topic-item">IPv4 & IPv6 Subnetting</li>
+                  <li class="cert-topic-item">OSI & TCP/IP Protocol Stacks</li>
+                  <li class="cert-topic-item">Ethernet Switching Concepts</li>
+                  <li class="cert-topic-item">Initial Device Configuration</li>
+                </ul>
+                <div class="cert-verified-stamp">
+                  <span aria-hidden="true">✦</span>
+                  <span>Verified Credential</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- Certification 02: CCNA 2 -->
+            <article class="cert-card">
+              <div class="cert-card-top">
+                <div class="cert-card-header">
+                  <span class="cert-code">02 · ROUTING & WIRELESS</span>
+                  <div class="cert-badge-icon" aria-hidden="true">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+                      <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                      <polyline points="2 17 12 22 22 17"></polyline>
+                      <polyline points="2 12 12 17 22 12"></polyline>
+                    </svg>
+                  </div>
+                </div>
+                <span class="cert-issuer">Cisco Networking Academy</span>
+                <h3 class="cert-title">CCNA 2: Switching, Routing & Wireless</h3>
+                <p class="cert-desc">
+                  Switching technologies and router operations supporting small-to-medium business networks, including wireless local area networks (WLAN).
+                </p>
+              </div>
+
+              <div class="cert-card-bottom">
+                <div class="cert-topics-title">Key Domains</div>
+                <ul class="cert-topics-list">
+                  <li class="cert-topic-item">VLANs & Inter-VLAN Routing</li>
+                  <li class="cert-topic-item">Spanning Tree Protocol (STP)</li>
+                  <li class="cert-topic-item">EtherChannel & Link Aggregation</li>
+                  <li class="cert-topic-item">DHCPv4, SLAAC & Switch Security</li>
+                </ul>
+                <div class="cert-verified-stamp">
+                  <span aria-hidden="true">✦</span>
+                  <span>Verified Credential</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- Certification 03: Introduction to Cybersecurity -->
+            <article class="cert-card">
+              <div class="cert-card-top">
+                <div class="cert-card-header">
+                  <span class="cert-code">03 · SECURITY</span>
+                  <div class="cert-badge-icon" aria-hidden="true">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                    </svg>
+                  </div>
+                </div>
+                <span class="cert-issuer">Cisco Networking Academy</span>
+                <h3 class="cert-title">Introduction to Cybersecurity</h3>
+                <p class="cert-desc">
+                  Foundational understanding of global cyber warfare, threat vectors, data privacy ethics, cryptography, and network defense architectures.
+                </p>
+              </div>
+
+              <div class="cert-card-bottom">
+                <div class="cert-topics-title">Key Domains</div>
+                <ul class="cert-topics-list">
+                  <li class="cert-topic-item">Cyber Threat Landscape & Malware</li>
+                  <li class="cert-topic-item">Confidentiality, Integrity, Availability</li>
+                  <li class="cert-topic-item">Cryptography & Access Control</li>
+                  <li class="cert-topic-item">Defensive Incident Mitigation</li>
+                </ul>
+                <div class="cert-verified-stamp">
+                  <span aria-hidden="true">✦</span>
+                  <span>Verified Credential</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- Certification 04: AWS Cloud Fundamentals Badge -->
+            <article class="cert-card">
+              <div class="cert-card-top">
+                <div class="cert-card-header">
+                  <span class="cert-code">04 · CLOUD INFRASTRUCTURE</span>
+                  <div class="cert-badge-icon" aria-hidden="true">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"></path>
+                    </svg>
+                  </div>
+                </div>
+                <span class="cert-issuer">Amazon Web Services (AWS)</span>
+                <h3 class="cert-title">AWS Cloud Fundamentals Badge</h3>
+                <p class="cert-desc">
+                  Comprehensive fundamentals of cloud computing, AWS global cloud infrastructure, core compute/storage/database primitives, and cloud security governance.
+                </p>
+              </div>
+
+              <div class="cert-card-bottom">
+                <div class="cert-topics-title">Key Domains</div>
+                <ul class="cert-topics-list">
+                  <li class="cert-topic-item">AWS Global Cloud Infrastructure</li>
+                  <li class="cert-topic-item">EC2, S3, RDS & VPC Primitives</li>
+                  <li class="cert-topic-item">IAM & Shared Responsibility Model</li>
+                  <li class="cert-topic-item">Cloud Economics & Pricing Models</li>
+                </ul>
+                <div class="cert-verified-stamp">
+                  <span aria-hidden="true">✦</span>
+                  <span>Verified Digital Badge</span>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ====================================================================
+           Education and Working Process Section
+           ==================================================================== -->
+      <section id="education" class="edu-process-section" aria-labelledby="edu-title">
+        <div class="container">
+          <div class="edu-process-grid">
+            <!-- Left Column: Education -->
+            <div>
+              <span class="editorial-kicker">ACADEMIC BACKGROUND</span>
+              <h2 id="edu-title" class="editorial-h2" style="font-size: 2.25rem;">Education</h2>
+
+              <div class="timeline-entry">
+                <span class="timeline-status-kicker">CURRENT STUDIES</span>
+                <h3 class="timeline-degree">Fourth-Year Student — Artificial Intelligence</h3>
+                <div class="timeline-institution">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                    <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+                  </svg>
+                  <span>EPI Sousse, Tunisia</span>
+                </div>
+                <p class="timeline-desc">
+                  Rigorous engineering curriculum encompassing machine learning fundamentals, computer vision architectures, algorithmic design, probability and statistics, and full-stack software development.
+                </p>
+              </div>
+            </div>
+
+            <!-- Fine Vertical Hairline Divider -->
+            <div class="edu-divider" aria-hidden="true"></div>
+
+            <!-- Right Column: Working Process -->
+            <div>
+              <span class="editorial-kicker">METHODOLOGY</span>
+              <h2 class="editorial-h2" style="font-size: 2.25rem;">Working Process</h2>
+
+              <ol class="process-steps-list">
+                <li class="process-step-item">
+                  <span class="process-number">01</span>
+                  <div>
+                    <h3 class="process-step-title">Understand the problem.</h3>
+                    <p class="process-step-detail">
+                      Analyze the domain, delineate objectives, establish success metrics, and formulate the core challenge.
+                    </p>
+                  </div>
+                </li>
+                <li class="process-step-item">
+                  <span class="process-number">02</span>
+                  <div>
+                    <h3 class="process-step-title">Explore the data and requirements.</h3>
+                    <p class="process-step-detail">
+                      Inspect distributions, assess edge cases, clean and transform features, and validate structural assumptions.
+                    </p>
+                  </div>
+                </li>
+                <li class="process-step-item">
+                  <span class="process-number">03</span>
+                  <div>
+                    <h3 class="process-step-title">Design and develop a solution.</h3>
+                    <p class="process-step-detail">
+                      Architect models and software modules with clean code, modular design, and robust logic.
+                    </p>
+                  </div>
+                </li>
+                <li class="process-step-item">
+                  <span class="process-number">04</span>
+                  <div>
+                    <h3 class="process-step-title">Test and improve.</h3>
+                    <p class="process-step-detail">
+                      Validate outputs through diagnostic metrics, cross-validation, and iterative refinements.
+                    </p>
+                  </div>
+                </li>
+                <li class="process-step-item">
+                  <span class="process-number">05</span>
+                  <div>
+                    <h3 class="process-step-title">Document the results.</h3>
+                    <p class="process-step-detail">
+                      Compile findings, clarify technical trade-offs, and ensure transparency and reproducibility.
+                    </p>
+                  </div>
+                </li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ====================================================================
+           Contact Section (Dramatic Closing)
+           ==================================================================== -->
+      <section id="contact" class="contact-section" aria-labelledby="contact-title">
+        <div class="container">
+          <div class="contact-grid">
+            <!-- Left Column: Heading and Contact Details -->
+            <div>
+              <span class="editorial-kicker">COLLABORATION & INTERNSHIP</span>
+              <div class="contact-heading-group">
+                <h2 id="contact-title" class="contact-huge-title">LET'S BUILD SOMETHING</h2>
+                <span class="contact-handwriting-accent">Meaningful.</span>
+              </div>
+              <p class="contact-body-lead">
+                I'm open to internship opportunities, collaborations, and interesting projects where technology can make a difference.
+              </p>
+
+              <!-- Direct Contact Information -->
+              <div class="contact-methods">
+                <div class="contact-method-row">
+                  <div class="contact-method-info">
+                    <span class="contact-method-label">Full Name</span>
+                    <span class="contact-method-value">Maram Kassem</span>
+                  </div>
+                  <span class="contact-method-action">AI Student</span>
+                </div>
+
+                <div class="contact-method-row">
+                  <div class="contact-method-info">
+                    <span class="contact-method-label">Direct Email</span>
+                    <a href="mailto:kassem.maram@outlook.com" class="contact-method-value" style="color: var(--text-primary); text-decoration: underline; text-decoration-color: var(--accent-main); text-underline-offset: 4px;">
+                      kassem.maram@outlook.com
+                    </a>
+                  </div>
+                  <button id="copy-email-button" class="contact-method-action" aria-label="Copy email address to clipboard">
+                    <span>Copy Address</span>
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                      <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                    </svg>
+                  </button>
+                </div>
+
+                <div class="contact-method-row">
+                  <div class="contact-method-info">
+                    <span class="contact-method-label">Code Repositories</span>
+                    <span class="contact-method-value">github.com/maramkssm</span>
+                  </div>
+                  <a
+                    href="https://github.com/maramkssm?tab=repositories"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="contact-method-action"
+                    aria-label="Visit Maram Kassem GitHub repositories in new tab"
+                  >
+                    <span>View GitHub</span>
+                    <span aria-hidden="true">↗</span>
+                  </a>
+                </div>
+              </div>
+
+              <!-- Action buttons -->
+              <div class="contact-cta-buttons">
+                <a
+                  href="mailto:kassem.maram@outlook.com?subject=Internship%20/%20Project%20Opportunity"
+                  class="btn-editorial-primary"
+                >
+                  <span>SEND ME A MESSAGE</span>
+                  <span aria-hidden="true">↗</span>
+                </a>
+                <a
+                  href="https://github.com/maramkssm?tab=repositories"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn-editorial-secondary"
+                >
+                  <span>EXPLORE GITHUB REPOSITORIES</span>
+                  <span aria-hidden="true">↗</span>
+                </a>
+              </div>
+            </div>
+
+            <!-- Right Column: Secondary Elegantly Framed Portrait of Maram -->
+            <div class="contact-portrait-col">
+              <div class="contact-portrait-frame">
+                <img
+                  src="/assets/aistudio/port_e70c6bb1.png"
+                  alt="Maram Kassem editorial portrait close-up"
+                  class="contact-portrait-img"
+                  loading="lazy"
+                  referrerpolicy="no-referrer"
+                />
+              </div>
+              <p class="contact-portrait-quote">
+                “Connecting data, intelligence, and real-world needs.”
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ====================================================================
+         Footer
+         ==================================================================== -->
+    <footer class="site-footer" role="contentinfo">
+      <div class="container">
+        <div class="footer-top">
+          <div class="footer-brand">
+            MARAM KASSEM
+          </div>
+          <ul class="footer-links">
+            <li><a href="#hero" class="footer-link">Home</a></li>
+            <li><a href="#about" class="footer-link">About</a></li>
+            <li><a href="#projects" class="footer-link">Projects</a></li>
+            <li><a href="#skills" class="footer-link">Skills</a></li>
+            <li><a href="#certifications" class="footer-link">Certifications</a></li>
+            <li><a href="#education" class="footer-link">Education</a></li>
+            <li><a href="#contact" class="footer-link">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-bottom">
+          <div>© 2026 Maram Kassem · Fourth-Year AI Student · EPI Sousse</div>
+          <div class="footer-phrase">BUILD · LEARN · CREATE</div>
+          <div>
+            <button id="back-to-top" class="back-to-top-btn" aria-label="Scroll to top of page">
+              <span>Back to top</span>
+              <span aria-hidden="true">↑</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Interactive Project Detail Lightbox Modal -->
+    <div
+      id="project-modal"
+      class="project-modal-backdrop"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="modal-project-title"
+    >
+      <div class="project-modal-content">
+        <button id="modal-close-button" class="modal-close-btn" aria-label="Close project modal">
+          ✕
+        </button>
+        <div id="modal-project-number" class="modal-header-badge">01 · CASE STUDY</div>
+        <div id="modal-project-kicker" class="editorial-kicker" style="margin-bottom: 0.25rem;"></div>
+        <h3 id="modal-project-title" class="modal-title"></h3>
+
+        <div class="modal-image-wrap">
+          <img id="modal-project-image" src="" alt="Project detail illustration" />
+        </div>
+
+        <p id="modal-project-desc" class="modal-body-text" style="font-weight: 500; color: var(--text-primary); margin-bottom: 1rem;"></p>
+
+        <h4 class="modal-section-title">Academic & Applied Context</h4>
+        <p id="modal-project-context" class="modal-body-text"></p>
+
+        <h4 class="modal-section-title">Methodology & Technical Architecture</h4>
+        <ul id="modal-project-methodology" class="modal-body-text" style="padding-left: 1.25rem; margin-top: 0.5rem;"></ul>
+
+        <h4 class="modal-section-title">Key Outcomes</h4>
+        <p id="modal-project-outcomes" class="modal-body-text"></p>
+
+        <h4 class="modal-section-title">Technologies & Stack</h4>
+        <div id="modal-project-tags" class="modal-tags"></div>
+      </div>
+    </div>
+
+    <!-- Toast for clipboard feedback -->
+    <div id="editorial-toast" class="editorial-toast" role="status" aria-live="polite">
+      Email copied to clipboard
+    </div>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
